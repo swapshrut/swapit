@@ -44,6 +44,7 @@ public class DemoController {
 		service.updateStudent(std);
 	}
 
+	// this is use to delete the database entry
 	@DeleteMapping("/students/delete/{id}")
 	public void deleteStudent(@PathVariable int id) {
 		service.deleteStudent(id);
